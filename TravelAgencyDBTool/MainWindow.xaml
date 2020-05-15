@@ -15,56 +15,56 @@
 
     <DockPanel Background="WhiteSmoke">
         <Menu DockPanel.Dock="Top" Height="22" Background="WhiteSmoke">
-            <MenuItem Header="_File">
-                <MenuItem Header="_Exit" />
+            <MenuItem Header="파일(_F)">
+                <MenuItem Header="끝내기(_X)" />
             </MenuItem>
-            <MenuItem Header="_Tools">
+            <MenuItem Header="편집(_E)">
                 <MenuItem Header="_Show groups" IsCheckable="True" IsChecked="True" />
                 <MenuItem Header="_Show groups" IsCheckable="True" IsChecked="True" />
             </MenuItem>
         </Menu>
         <Grid>
             <TabControl>
-                <TabItem Header="Place">
+                <TabItem Header="장소 (Place)">
                     <StackPanel Margin="10, 10, 10, 10">
                         <ListView Name="PlaceDataListView" HorizontalContentAlignment="Stretch" Height="510">
                         </ListView>
-                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="100" Height="30">New Place</Button>
+                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="120" Height="30">새 장소</Button>
                     </StackPanel>
                 </TabItem>
-                <TabItem Header="Country">
+                <TabItem Header="국가 (Country)">
                     <StackPanel Margin="10, 10, 10, 10">
                         <ListView Name="CountryDataListView" HorizontalContentAlignment="Stretch" Height="510">
                         </ListView>
-                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="100" Height="30">New Country</Button>
+                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="120" Height="30">새 국가</Button>
                     </StackPanel>
                 </TabItem>
-                <TabItem Header="Province">
+                <TabItem Header="행정구역 (Province)">
                     <StackPanel Margin="10, 10, 10, 10">
                         <ListView Name="ProvinceDataListView" HorizontalContentAlignment="Stretch" Height="510">
                         </ListView>
-                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="100" Height="30">New Province</Button>
+                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="120" Height="30">새 행정구역</Button>
                     </StackPanel>
                 </TabItem>
-                <TabItem Header="Region">
+                <TabItem Header="지역 (Region)">
                     <StackPanel Margin="10, 10, 10, 10">
                         <ListView Name="RegionDataListView" HorizontalContentAlignment="Stretch" Height="510">
                         </ListView>
-                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="100" Height="30">New Region</Button>
+                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="120" Height="30">새 지역</Button>
                     </StackPanel>
                 </TabItem>
-                <TabItem Header="Currency">
+                <TabItem Header="통화 (Currency)">
                     <StackPanel Margin="10, 10, 10, 10">
                         <ListView Name="CurrencyDataListView" HorizontalContentAlignment="Stretch" Height="510">
                         </ListView>
-                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="100" Height="30">New Currency</Button>
+                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="120" Height="30">새 통화</Button>
                     </StackPanel>
                 </TabItem>
-                <TabItem Header="Language">
+                <TabItem Header="언어 (Language)">
                     <StackPanel Margin="10, 10, 10, 10">
                         <ListView Name="LanguageDataListView" HorizontalContentAlignment="Stretch" Height="510">
                         </ListView>
-                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="100" Height="30">New Language</Button>
+                        <Button Margin="0, 12, 0, 0" HorizontalAlignment="Right" Width="120" Height="30">새 언어</Button>
                     </StackPanel>
                 </TabItem>
             </TabControl>
